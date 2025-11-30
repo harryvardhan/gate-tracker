@@ -214,10 +214,10 @@ const GateStudyPlan = () => {
     { num: 7, subject: "Data Structures", duration: 4, topics: ["Linked Lists", "Trees", "Heaps", "Graphs", "Hashing"] },
     { num: 8, subject: "Algorithms", duration: 6, topics: ["Complexity", "Sorting", "Divide&Conquer", "Greedy", "DP", "Graph Algos"] },
     { num: 9, subject: "Discrete Mathematics", duration: 4, topics: ["Logic", "Sets", "Graph Theory", "P&C"] },
-    { num: 11, subject: "Linear Algebra", duration: 2, topics: ["Matrices", "Rank", "Eigenvalues", "Systems"] },
-    { num: 12, subject: "Probability & Stats", duration: 2, topics: ["Bayes", "Random Variables", "Distributions", "Variance"] },
-    { num: 13, subject: "TOC", duration: 3, topics: ["DFA/NFA", "Regex", "PDA", "Turing Machines"] },
-     { num: 14, subject: "Aptitude", duration: 00, topics: ["Quntitative", "Spatial", "Analytical", "Verbal"] },
+    { num: 10, subject: "Linear Algebra", duration: 2, topics: ["Matrices", "Rank", "Eigenvalues", "Systems"] },
+    { num: 11, subject: "Probability & Stats", duration: 2, topics: ["Bayes", "Random Variables", "Distributions", "Variance"] },
+    { num: 12, subject: "TOC", duration: 3, topics: ["DFA/NFA", "Regex", "PDA", "Turing Machines"] },
+     { num: 13, subject: "Aptitude", duration: 0, topics: ["Quntitative", "Spatial", "Analytical", "Verbal"] },
    
   ];
 
@@ -369,7 +369,7 @@ const GateStudyPlan = () => {
             </div>
             <div className="bg-gray-100 p-3 rounded border border-gray-300">
               <div className="font-semibold text-gray-900">1:00 – 3:00 AM</div>
-              <div className="text-sm text-gray-700">Light revision & next day plan</div>
+              <div className="text-sm text-gray-700">Maths for Back & next day plan</div>
             </div>
           </div>
         </div>
