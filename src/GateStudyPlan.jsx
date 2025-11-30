@@ -521,3 +521,4 @@ const GateStudyPlan = () => {
 };
 
 export default GateStudyPlan;
+
