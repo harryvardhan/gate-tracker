@@ -14,7 +14,7 @@ import {
    Helper functions
    ========================= */
 
-const START_DATE_ISO = "2025-11-27";
+const START_DATE_ISO = "2025-12-01";
 const MOCK_START_ISO = "2025-12-22";
 
 function toISO(d) {
@@ -205,7 +205,7 @@ const GateStudyPlan = () => {
 
   // Study plan (durations are numbers of days)
   const studyPlan = [
-    { num: 1, subject: "DBMS", duration: 4, topics: ["ER Model", "Keys & Constraints", "SQL Queries", "Normalization", "Transactions", "Indexing"] },
+    { num: 1, subject: "DBMS", duration: 3, topics: ["ER Model", "Keys & Constraints", "SQL Queries", "Normalization", "Transactions", "Indexing"] },
     { num: 2, subject: "Computer Organization (COA)", duration: 4, topics: ["Number Systems", "Addressing Modes", "Pipelining", "Cache", "I/O"] },
     { num: 3, subject: "Operating Systems", duration: 4, topics: ["Scheduling", "Deadlocks", "Paging", "Page Replacement", "Disk Scheduling"] },
     { num: 4, subject: "Computer Networks", duration: 7, topics: ["OSI/TCPIP", "Encoding/CRC", "Subnetting", "Routing", "TCP/UDP", "Congestion", "App Layer"] },
@@ -318,6 +318,19 @@ const GateStudyPlan = () => {
               </div>
               <CalIcon className="w-12 h-12 text-orange-600" />
             </div>
+          </div>
+
+          {/* Target Marks 65 Designer Strip */}
+          <div className="mt-4 flex justify-between items-center gap-3">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-orange-50 via-rose-50 to-red-50 border border-orange-200 shadow-sm">
+              <Trophy className="w-4 h-4 text-orange-600" />
+              <span className="text-xs sm:text-sm font-semibold text-gray-800 tracking-wide">
+                🎯 Target: <span className="text-orange-600">65+</span> marks in GATE CSE
+              </span>
+            </div>
+            <span className="hidden sm:inline text-xs text-gray-500">
+              Small improvements every day &mdash; one step closer to 65+
+            </span>
           </div>
         </div>
 
@@ -521,4 +534,5 @@ const GateStudyPlan = () => {
 };
 
 export default GateStudyPlan;
+
 
