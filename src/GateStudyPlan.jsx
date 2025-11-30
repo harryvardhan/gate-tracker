@@ -206,17 +206,18 @@ const GateStudyPlan = () => {
   // Study plan (durations are numbers of days)
   const studyPlan = [
     { num: 1, subject: "DBMS", duration: 3, topics: ["ER Model", "Keys & Constraints", "SQL Queries", "Normalization", "Transactions", "Indexing"] },
-    { num: 12, subject: "Digital Logic", duration: 3, topics: ["Boolean Algebra", "K-Maps", "Combinational", "Sequential"] },
-    { num: 2, subject: "Computer Organization (COA)", duration: 4, topics: ["Number Systems", "Addressing Modes", "Pipelining", "Cache", "I/O"] },
-    { num: 3, subject: "Operating Systems", duration: 4, topics: ["Scheduling", "Deadlocks", "Paging", "Page Replacement", "Disk Scheduling"] },
-    { num: 4, subject: "Computer Networks", duration: 7, topics: ["OSI/TCPIP", "Encoding/CRC", "Subnetting", "Routing", "TCP/UDP", "Congestion", "App Layer"] },
-    { num: 5, subject: "C Programming", duration: 3, topics: ["Loops", "Arrays", "Pointers", "Functions", "Structs"] },
-    { num: 6, subject: "Data Structures", duration: 4, topics: ["Linked Lists", "Trees", "Heaps", "Graphs", "Hashing"] },
-    { num: 7, subject: "Algorithms", duration: 6, topics: ["Complexity", "Sorting", "Divide&Conquer", "Greedy", "DP", "Graph Algos"] },
-    { num: 8, subject: "Discrete Mathematics", duration: 4, topics: ["Logic", "Sets", "Graph Theory", "P&C"] },
-    { num: 9, subject: "Linear Algebra", duration: 2, topics: ["Matrices", "Rank", "Eigenvalues", "Systems"] },
-    { num: 10, subject: "Probability & Stats", duration: 2, topics: ["Bayes", "Random Variables", "Distributions", "Variance"] },
-    { num: 11, subject: "TOC", duration: 3, topics: ["DFA/NFA", "Regex", "PDA", "Turing Machines"] },
+    { num: 2, subject: "Digital Logic", duration: 3, topics: ["Boolean Algebra", "K-Maps", "Combinational", "Sequential"] },
+    { num: 3, subject: "Computer Organization (COA)", duration: 4, topics: ["Number Systems", "Addressing Modes", "Pipelining", "Cache", "I/O"] },
+    { num: 4, subject: "Operating Systems", duration: 4, topics: ["Scheduling", "Deadlocks", "Paging", "Page Replacement", "Disk Scheduling"] },
+    { num: 5, subject: "Computer Networks", duration: 7, topics: ["OSI/TCPIP", "Encoding/CRC", "Subnetting", "Routing", "TCP/UDP", "Congestion", "App Layer"] },
+    { num: 6, subject: "C Programming", duration: 3, topics: ["Loops", "Arrays", "Pointers", "Functions", "Structs"] },
+    { num: 7, subject: "Data Structures", duration: 4, topics: ["Linked Lists", "Trees", "Heaps", "Graphs", "Hashing"] },
+    { num: 8, subject: "Algorithms", duration: 6, topics: ["Complexity", "Sorting", "Divide&Conquer", "Greedy", "DP", "Graph Algos"] },
+    { num: 9, subject: "Discrete Mathematics", duration: 4, topics: ["Logic", "Sets", "Graph Theory", "P&C"] },
+    { num: 11, subject: "Linear Algebra", duration: 2, topics: ["Matrices", "Rank", "Eigenvalues", "Systems"] },
+    { num: 12, subject: "Probability & Stats", duration: 2, topics: ["Bayes", "Random Variables", "Distributions", "Variance"] },
+    { num: 13, subject: "TOC", duration: 3, topics: ["DFA/NFA", "Regex", "PDA", "Turing Machines"] },
+     { num: 14, subject: "Aptitude", duration: 00, topics: ["Quntitative", "Spatial", "Analytical", "Verbal"] },
    
   ];
 
