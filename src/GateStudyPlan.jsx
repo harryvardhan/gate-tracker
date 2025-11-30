@@ -217,7 +217,7 @@ const GateStudyPlan = () => {
     { num: 10, subject: "Linear Algebra", duration: 2, topics: ["Matrices", "Rank", "Eigenvalues", "Systems"] },
     { num: 11, subject: "Probability & Stats", duration: 2, topics: ["Bayes", "Random Variables", "Distributions", "Variance"] },
     { num: 12, subject: "TOC", duration: 3, topics: ["DFA/NFA", "Regex", "PDA", "Turing Machines"] },
-     { num: 13, subject: "Aptitude", duration: 0, topics: ["Quntitative", "Spatial", "Analytical", "Verbal"] },
+     { num: 13,  subject: "Aptitude", duration: 0, topics: ["Quntitative", "Spatial", "Analytical", "Verbal"] },
    
   ];
 
