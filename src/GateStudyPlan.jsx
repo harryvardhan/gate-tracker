@@ -347,27 +347,27 @@ const GateStudyPlan = () => {
 
           <div className="grid md:grid-cols-2 gap-3">
             <div className="bg-blue-50 p-3 rounded border border-blue-200">
-              <div className="font-semibold text-blue-900">6:00 – 9:00 AM</div>
+              <div className="font-semibold text-blue-900">9:00 – 12:00 PM</div>
               <div className="text-sm text-gray-700">Main subject lectures (2x) + running notes</div>
             </div>
             <div className="bg-purple-50 p-3 rounded border border-purple-200">
-              <div className="font-semibold text-purple-900">9:30 AM – 1:00 PM</div>
+              <div className="font-semibold text-purple-900">1:00 AM – 5:00 PM</div>
               <div className="text-sm text-gray-700">Continue lectures + 5–10 PYQs topic-wise</div>
             </div>
             <div className="bg-yellow-50 p-3 rounded border border-yellow-200">
-              <div className="font-semibold text-yellow-900">2:00 – 4:30 PM</div>
+              <div className="font-semibold text-yellow-900">6:00 – 8:30 PM</div>
               <div className="text-sm text-gray-700">Dedicated PYQ solving</div>
             </div>
             <div className="bg-green-50 p-3 rounded border border-green-200">
-              <div className="font-semibold text-green-900">4:45 – 6:30 PM</div>
+              <div className="font-semibold text-green-900">9:45 – 10:30 PM</div>
               <div className="text-sm text-gray-700">Revision & error log</div>
             </div>
             <div className="bg-red-50 p-3 rounded border border-red-200">
-              <div className="font-semibold text-red-900">7:00 – 9:00 PM</div>
+              <div className="font-semibold text-red-900">11:00 – 1:00 AM</div>
               <div className="text-sm text-gray-700">Aptitude (1–1.5 hr daily)</div>
             </div>
             <div className="bg-gray-100 p-3 rounded border border-gray-300">
-              <div className="font-semibold text-gray-900">9:30 – 11:00 PM</div>
+              <div className="font-semibold text-gray-900">1:00 – 3:00 AM</div>
               <div className="text-sm text-gray-700">Light revision & next day plan</div>
             </div>
           </div>
