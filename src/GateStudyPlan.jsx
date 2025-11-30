@@ -206,6 +206,7 @@ const GateStudyPlan = () => {
   // Study plan (durations are numbers of days)
   const studyPlan = [
     { num: 1, subject: "DBMS", duration: 3, topics: ["ER Model", "Keys & Constraints", "SQL Queries", "Normalization", "Transactions", "Indexing"] },
+    { num: 12, subject: "Digital Logic", duration: 3, topics: ["Boolean Algebra", "K-Maps", "Combinational", "Sequential"] },
     { num: 2, subject: "Computer Organization (COA)", duration: 4, topics: ["Number Systems", "Addressing Modes", "Pipelining", "Cache", "I/O"] },
     { num: 3, subject: "Operating Systems", duration: 4, topics: ["Scheduling", "Deadlocks", "Paging", "Page Replacement", "Disk Scheduling"] },
     { num: 4, subject: "Computer Networks", duration: 7, topics: ["OSI/TCPIP", "Encoding/CRC", "Subnetting", "Routing", "TCP/UDP", "Congestion", "App Layer"] },
@@ -216,7 +217,7 @@ const GateStudyPlan = () => {
     { num: 9, subject: "Linear Algebra", duration: 2, topics: ["Matrices", "Rank", "Eigenvalues", "Systems"] },
     { num: 10, subject: "Probability & Stats", duration: 2, topics: ["Bayes", "Random Variables", "Distributions", "Variance"] },
     { num: 11, subject: "TOC", duration: 3, topics: ["DFA/NFA", "Regex", "PDA", "Turing Machines"] },
-    { num: 12, subject: "Digital Logic", duration: 3, topics: ["Boolean Algebra", "K-Maps", "Combinational", "Sequential"] },
+   
   ];
 
   // Progress calculations
