@@ -205,7 +205,7 @@ const GateStudyPlan = () => {
 
   // Study plan (durations are numbers of days)
   const studyPlan = [
-    { num: 1, subject: "DBMS", duration: 3, topics: ["ER Model", "Keys & Constraints", "SQL Queries", "Normalization", "Transactions", "Indexing"] },
+    { num: 1, subject: "DB", duration: 3, topics: ["ER Model", "Keys & Constraints", "SQL Queries", "Normalization", "Transactions", "Indexing"] },
     { num: 2, subject: "Digital Logic", duration: 3, topics: ["Boolean Algebra", "K-Maps", "Combinational", "Sequential"] },
     { num: 3, subject: "Computer Organization (COA)", duration: 4, topics: ["Number Systems", "Addressing Modes", "Pipelining", "Cache", "I/O"] },
     { num: 4, subject: "Operating Systems", duration: 4, topics: ["Scheduling", "Deadlocks", "Paging", "Page Replacement", "Disk Scheduling"] },
